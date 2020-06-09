@@ -1,0 +1,49 @@
+vlang (0.1.27) groovy; urgency=medium
+
+  * Prepare groovy package
+
+ -- Kai Lyons <kai.lyons@kaix.live>  Sun, 09 Jun 2020 04:03:00 -0600
+ 
+vlang (0.1.27.6) focal; urgency=medium
+
+  * Shift to prebuilt for Linux as base
+  * Remove PostInst script
+  * add to rules
+
+ -- Kai Lyons <kai.lyons@kaix.live>  Sun, 31 May 2020 16:32:00 -0600
+
+vlang (0.1.27.5) focal; urgency=medium
+
+  * Remove makefile things not for Linux
+
+ -- Kai Lyons <kai.lyons@kaix.live>  Sun, 31 May 2020 16:32:00 -0600
+
+vlang (0.1.27.4) focal; urgency=medium
+
+  * Appease the makefile gods
+
+ -- Kai Lyons <kai.lyons@kaix.live>  Sun, 31 May 2020 16:25:00 -0600
+
+vlang (0.1.27.3) focal; urgency=medium
+
+  * Appease the debian package gods
+
+ -- Kai Lyons <kai.lyons@kaix.live>  Sun, 31 May 2020 16:19:00 -0600
+
+vlang (0.1.27.2) focal; urgency=medium
+
+  * Remove Git commands from Makefile, remove Git dependancy
+
+ -- Kai Lyons <kai.lyons@kaix.live>  Sun, 31 May 2020 16:12:00 -0600
+
+vlang (0.1.27.1) focal; urgency=medium
+
+  * Add git dependency (for makefile commands)
+  
+ -- Kai Lyons <kai.lyons@kaix.live>  Sun, 31 May 2020 16:10:00 -0600
+
+vlang (0.1.27) focal; urgency=medium
+
+  * Create debian package
+  
+ -- Kai Lyons <kai.lyons@kaix.live>  Sun, 31 May 2020 15:50:00 -0600

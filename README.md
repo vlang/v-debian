@@ -1,11 +1,17 @@
 # v-debian
 V Debian package
 
+Ubuntu Releases found in `ubuntu/`
+Debian Releases found in `debian/`
+
+Further mentions of the `debian/` will mean the package information for Ubuntu and Debian builds, but should not be mixed up with the top-level `debian/` folder.
+
+Don't change the package folder of `debian/` to avoid confusion with the top-level `debian/` release folder, this will create errors.
+
 ## Building Packages:
 - Copy point release from [releases](https://github.com/vlang/v/releases)
-  - Don't build for every commit, might cause issues
-- Move the active data to the `vlang/` directory
-  - KEEP DEBIAN FOLDER!!
+- Move the active data to a `vlang/` directory
+  - Copy and paste the needed `debian/` folder from this repo.
 - In `debian/` folder, change data:
   - `debian/control` : uploader. change detail: `your name <your.email@example.com>`
   - `debian/changelog` : New release information, example below:

@@ -1,0 +1,13 @@
+Source: vlang
+Section: devel
+Priority: optional
+Maintainer: V Developers <null@example.com>
+Uploaders: Kai Lyons <kai.lyons@kaix.live>
+Build-Depends: debhelper-compat (= 12), gcc
+Standards-Version: 4.5.0
+Homepage: https://vlang.io
+
+Package: vlang
+Architecture: any
+Depends: ${misc:Depends}
+Description: The V programming language.
