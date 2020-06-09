@@ -16,7 +16,7 @@ V Debian package
 
    -- Kai Lyons <kai.lyons@kaix.live>  Sun, 09 Jun 2020 03:05:00 -0600
   ```
-  Note that changelog is super sensitive. More info on changelog later.
+  Note that changelog is super sensitive. Read [changelog-info.md](https://github.com/vlang/v-debian/blob/master/changelog-info.md) for more information
   - Nothing else in the debian folder should need to be changed.
 - Compress new orig.tar.*
   - Can be any .tar type (gz, xz, bz2, etc).
